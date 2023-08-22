@@ -1,0 +1,27 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 100;
+    padding: 1em;
+    width: 95vw;
+    margin-left: 1%;
+}
+.deosol{
+    color: #7851a9;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+.link{
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 1em;
+    margin-top: 15%;
+}
+.link:hover, .link:active{
+    color: #7851a9;
+}
