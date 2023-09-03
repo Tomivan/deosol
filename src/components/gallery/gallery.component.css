@@ -17,3 +17,13 @@
     height: 56vh;
     margin-right: 2%;
 }
+
+@media screen and (max-width: 767px) {
+    .h2{
+        margin-top: 60%;
+    }
+    .row img{
+        width: 80vw;
+        margin-bottom: 3%;
+    }
+  }

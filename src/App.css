@@ -4,3 +4,12 @@ body{
   box-sizing: border-box;
   font-family: Georgia, 'Times New Roman', Times, serif
 }
+
+@media screen and (max-width: 767px) {
+  .links{
+    flex-direction: column;
+  }
+  .purple{
+    width: 30vw;
+  }
+}

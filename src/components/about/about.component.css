@@ -27,3 +27,19 @@ h2{
     width: 20vw;
     height: 40vh;
 }
+
+@media screen and (max-width: 767px) {
+    .links{
+      flex-direction: column;
+    }
+    .purple{
+      width: 30vw;
+    }
+    .card{
+      margin: 40% 0 0 5%;
+      flex-direction: column;
+    }
+    .card img{
+      width: 70vw;
+    }
+  }
