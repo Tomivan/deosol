@@ -45,3 +45,10 @@ video{
   .purple{
     background: #7851a9;
   }
+
+  
+@media screen and (max-width: 767px) {
+  .content{
+      margin-left: 3%;
+  }
+}

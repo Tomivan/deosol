@@ -8,7 +8,6 @@ const About = () => {
         <div>
             <Nav />
             <AboutComponent />
-            <Footer />
         </div>
     )
 }

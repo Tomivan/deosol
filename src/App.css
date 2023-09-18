@@ -2,12 +2,13 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Georgia, 'Times New Roman', Times, serif
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 @media screen and (max-width: 767px) {
   .links{
     flex-direction: column;
+    margin-right: 10%;
   }
   .purple{
     width: 30vw;
