@@ -1,5 +1,5 @@
 import React from "react";
-import Video from "../../assets/videos/deosol-background.mp4";
+import Logo from "../../assets/images/background.jpg"
 import One from "../../assets/images/deosol1.jpg";
 import Two from "../../assets/images/deosol2.jpg";
 import Three from "../../assets/images/deosol3.jpg";
@@ -20,9 +20,8 @@ import "./gallery.component.css";
 const GalleryComponent = () => {
     return(
         <div className="gallery">
-            <div className="nav-overlay"></div>
-            <video src={Video} loop autoPlay muted className="video"/>
-            <h2 className="h2">Gallery</h2>
+            <img src={Logo} className="background"/>
+            <h2>Gallery</h2>
             <div className="pictures">
                 <div className="row">
                     <img src={One} alt="" />

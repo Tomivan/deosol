@@ -11,7 +11,7 @@ const HomeComponent = () => {
             <video src={Video} loop autoPlay muted/>
             <div className="content">
                 <h1>Deosol Events and Decor</h1>
-                <p>Hi, I'm Eniola and I will deliver breathtaking decorations for your events.</p>
+                <p>Hi, I'm Onose and I will deliver breathtaking decorations for your events.</p>
                 <button className="purple" onClick={() => navigate('/contact-us') }>Book me!</button>
             </div>
         </div>

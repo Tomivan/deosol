@@ -4,6 +4,8 @@ import Home from "./home";
 import About from "./about";
 import Contact from "./contact";
 import Gallery from "./gallery";
+import Services from "./services";
+import Packages from "./packages";
 
 const Pages = () => {
     return(
@@ -13,6 +15,8 @@ const Pages = () => {
                 <Route path="/about" element={<About />} />
                 <Route path="/contact-us" element={<Contact />} />
                 <Route path="/gallery" element={<Gallery />} />
+                <Route path="/services" element={<Services />} />
+                <Route path="/packages" element={<Packages />} />
             </Routes>
         </Router>
     )
