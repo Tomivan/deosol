@@ -12,49 +12,49 @@ const ServicesComponent = () => {
                 <img src={Services} alt="" />
                 <div className="text">
                     <ol>
-                        <li>Event Planning:
-                            Full event planning and coordination
-                            Partial event planning (assisting with specific aspects)
-                            Day-of event coordination
-                            Budget management and tracking
-                            Venue selection and booking
-                            Theme development and concept creation
-                            Vendor sourcing and management
-                            RSVP and guest list management
+                        <li>Event Planning:<br />
+                            Full event planning and coordination<br />
+                            Partial event planning (assisting with specific aspects)<br />
+                            Day-of event coordination <br />
+                            Budget management and tracking<br />
+                            Venue selection and booking<br />
+                            Theme development and concept creation<br />
+                            Vendor sourcing and management<br />
+                            RSVP and guest list management<br />
                         </li>
-                        <li>Event Decoration:
-                            Venue decor setup and design
-                            Tablescapes and centerpieces
-                            Floral arrangements and bouquets
-                            Lighting design and effects
-                            Linen and tableware selection
-                            Balloon decorations
-                            Backdrops and photo booth design
-                            Drapery and fabric installations
+                        <li>Event Decoration:<br />
+                            Venue decor setup and design<br />
+                            Tablescapes and centerpieces<br />
+                            Floral arrangements and bouquets<br />
+                            Lighting design and effects<br />
+                            Linen and tableware selection<br />
+                            Balloon decorations<br />
+                            Backdrops and photo booth design<br />
+                            Drapery and fabric installations<br />
                         </li>
-                        <li>Theme Parties:
-                            Birthday parties
-                            Anniversary celebrations
-                            Graduation parties
-                            Seasonal and holiday-themed events
-                            Costume parties
-                            Themed corporate events
+                        <li>Theme Parties:<br />
+                            Birthday parties<br />
+                            Anniversary celebrations<br />
+                            Graduation parties<br />
+                            Seasonal and holiday-themed events<br />
+                            Costume parties<br />
+                            Themed corporate events<br />
                         </li>
-                        <li>Wedding Services:
-                            Wedding planning and coordination
-                            Ceremony and reception decor
-                            Bridal bouquet and floral arrangements
-                            Wedding arches and chuppahs
-                            Wedding favors and gifts
-                            Rehearsal dinner planning
+                        <li>Wedding Services:<br />
+                            Wedding planning and coordination<br />
+                            Ceremony and reception decor<br />
+                            Bridal bouquet and floral arrangements<br />
+                            Wedding arches and chuppahs<br />
+                            Wedding favors and gifts<br />
+                            Rehearsal dinner planning<br />
                         </li>
-                        <li>Corporate Events:
-                            Product launches
-                            Conferences and seminars
-                            Gala dinners
-                            Team-building events
-                            Awards ceremonies
-                            Corporate holiday parties
+                        <li>Corporate Events:<br />
+                            Product launches<br />
+                            Conferences and seminars<br />
+                            Gala dinners<br />
+                            Team-building events<br />
+                            Awards ceremonies<br />
+                            Corporate holiday parties<br />
                         </li>
                     </ol>
                 </div>

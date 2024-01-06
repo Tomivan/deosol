@@ -15,6 +15,15 @@ import Twelve from "../../assets/images/deosol12.jpg";
 import Thirteen from "../../assets/images/deosol13.jpg";
 import Fourteen from "../../assets/images/deosol14.jpg";
 import Fifteen from "../../assets/images/deosol15.jpg";
+import Sixteen from "../../assets/images/deosol16.jpg";
+import Seventeen from "../../assets/images/deosol17.jpg";
+import Eighteen from "../../assets/images/deosol18.jpg";
+import Nineteen from "../../assets/images/deosol19.jpg";
+import Twenty from "../../assets/images/deosol20.jpg";
+import TwentyOne from "../../assets/images/deosol21.jpg";
+import TwentyTwo from "../../assets/images/deosol22.jpg";
+import TwentyThree from "../../assets/images/deosol23.jpg";
+import TwentyFour from "../../assets/images/deosol24.jpg";
 import "./gallery.component.css";
 
 const GalleryComponent = () => {
@@ -47,6 +56,21 @@ const GalleryComponent = () => {
                     <img src={Thirteen}alt="" />
                     <img src={Fourteen} alt="" />
                     <img src={Fifteen} alt="" />
+                </div>
+                <div className="row">
+                    <img src={Sixteen}alt="" />
+                    <img src={Seventeen} alt="" />
+                    <img src={Eighteen} alt="" />
+                </div>
+                <div className="row">
+                    <img src={Nineteen}alt="" />
+                    <img src={Twenty} alt="" />
+                    <img src={TwentyOne} alt="" />
+                </div>
+                <div className="row">
+                    <img src={TwentyTwo}alt="" />
+                    <img src={TwentyThree} alt="" />
+                    <img src={TwentyFour} alt="" />
                 </div>
             </div>
         </div>
