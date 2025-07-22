@@ -3,27 +3,15 @@
     margin: 18% 0 0 40%;
     font-size: 56px;
 }
-.pictures{
-    padding: 2em;
-    position: absolute;
-    top: 80%;
+.carousel {
+    margin: 15% 0 0 10%;
 }
-.row{
-    width: 90vw;
-    margin: 0 0 2% 3.5%;
+.carousel img {
+    height: 120vh;
+    margin-bottom: 5%;
 }
-.row img{
-    width: 28vw;
-    height: 56vh;
-    margin-right: 2%;
-}
-
 @media screen and (max-width: 767px) {
     .h2{
         margin: 60% 0 0 20%;
-    }
-    .row img{
-        width: 95vw;
-        margin: 0  0 3% -10%;
     }
   }

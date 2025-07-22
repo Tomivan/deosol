@@ -1,3 +1,19 @@
-li{
-    margin-bottom: 5%;
+.section{
+    margin-top: 12%;
+    padding: 1em;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    border: 1px solid #7851a9 !important;
+    border-radius: 8px;
+    padding: 1em;
+    width: 46vw;
+    margin: 3% 2% 0 0;
+}
+h3 {
+    color: #7851a9 !important;
+    margin-bottom: 5% !important;
 }

@@ -1,4 +1,4 @@
-import React from "react";
+import Carousel from 'react-bootstrap/Carousel';
 import Logo from "../../assets/images/background.jpg"
 import One from "../../assets/images/deosol1.jpg";
 import Two from "../../assets/images/deosol2.jpg";
@@ -31,48 +31,83 @@ const GalleryComponent = () => {
         <div className="gallery">
             <img src={Logo} className="background"/>
             <h2>Gallery</h2>
-            <div className="pictures">
-                <div className="row">
+            <Carousel className='carousel'>
+                <Carousel.Item>
                     <img src={One} alt="" />
+                </Carousel.Item>
+                <Carousel.Item>
                     <img src={Two} alt="" />
+                </Carousel.Item>
+                <Carousel.Item>
                     <img src={Three} alt="" />
-                </div>
-                <div className="row">
+                </Carousel.Item>
+                <Carousel.Item>
                     <img src={Four} alt="" />
+                </Carousel.Item>
+                <Carousel.Item>
                     <img src={Five} alt="" />
+                </Carousel.Item>
+                <Carousel.Item>
                     <img src={Six} alt="" />
-                </div>
-                <div className="row">
-                    <img src={Seven}alt="" />
-                    <img src={Eight}alt="" />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img src={Seven} alt="" />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img src={Eight} alt="" />
+                </Carousel.Item>
+                <Carousel.Item>
                     <img src={Nine} alt="" />
-                </div>
-                <div className="row">
+                </Carousel.Item>
+                <Carousel.Item>
                     <img src={Ten} alt="" />
+                </Carousel.Item>
+                <Carousel.Item>
                     <img src={Eleven} alt="" />
+                </Carousel.Item>
+                <Carousel.Item>
                     <img src={Twelve} alt="" />
-                </div>
-                <div className="row">
-                    <img src={Thirteen}alt="" />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img src={Thirteen} alt="" />
+                </Carousel.Item>
+                <Carousel.Item>
                     <img src={Fourteen} alt="" />
+                </Carousel.Item>
+                <Carousel.Item>
                     <img src={Fifteen} alt="" />
-                </div>
-                <div className="row">
-                    <img src={Sixteen}alt="" />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img src={Sixteen} alt="" />
+                </Carousel.Item>
+                <Carousel.Item>
                     <img src={Seventeen} alt="" />
+                </Carousel.Item>
+                <Carousel.Item>
                     <img src={Eighteen} alt="" />
-                </div>
-                <div className="row">
-                    <img src={Nineteen}alt="" />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img src={Nineteen} alt="" />
+                </Carousel.Item>
+                <Carousel.Item>
                     <img src={Twenty} alt="" />
+                </Carousel.Item>
+                <Carousel.Item>
                     <img src={TwentyOne} alt="" />
-                </div>
-                <div className="row">
-                    <img src={TwentyTwo}alt="" />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img src={TwentyTwo} alt="" />
+                </Carousel.Item>
+                <Carousel.Item>
                     <img src={TwentyThree} alt="" />
+                </Carousel.Item>
+                <Carousel.Item>
                     <img src={TwentyFour} alt="" />
-                </div>
-            </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img src={Three} alt="" />
+                </Carousel.Item>
+            </Carousel>
         </div>
     )
 }

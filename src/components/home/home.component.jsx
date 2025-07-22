@@ -10,8 +10,8 @@ const HomeComponent = () => {
             <div className="overlay"></div>
             <video src={Video} loop autoPlay muted/>
             <div className="content">
-                <h1>Deosol Events and Decor</h1>
-                <p>Hi, I'm Onose and I will deliver breathtaking decorations for your events.</p>
+                <h1>Crafting Unforgettable Moments</h1>
+                <p>We specialize in creating bespoke events that reflect your unique style and vision. <br /> From intimate gatherings to grand celebrations, our team ensures every detail is perfect.</p>
                 <button className="purple" onClick={() => navigate('/contact-us') }>Book me!</button>
             </div>
         </div>

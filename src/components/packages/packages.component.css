@@ -1,0 +1,12 @@
+th, td {
+    width: 30vw;
+    text-align: left;
+}
+table {
+    border: 1px solid #7851a9;
+    padding: 1em;
+    border-radius: 5px;
+}
+tr {
+    border-bottom: 1px solid #7851a9;
+}

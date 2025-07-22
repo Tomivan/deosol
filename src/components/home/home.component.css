@@ -31,11 +31,11 @@ video{
   }
   button{
     border: none;
-    border-radius: 50px;
+    border-radius: 5px !important;
     height: 6vh;
     width: 12vw;
     color: #ffffff;
-    padding: 1em;
+    cursor: pointer;
   }
   .buttons{
     display: flex;

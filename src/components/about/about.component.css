@@ -1,42 +1,22 @@
 .background {
-  margin-top: 10%;
+  margin-top: 5%;
   height: 50vh;
   width: 100%;
 }
 h2{
-  font-size: 48px;
+  font-size: 48px !important;
   text-align: center;
-  margin-top: -15%;
-  color: #ffffff;
+  margin-top: -15% !important;
+  color: #ffffff !important;
 }
-.card{
-    position: absolute;
-    margin: 10% 0 0 10%;
-    padding: 2em;
-    display: flex;
-    justify-content: space-between;
-    width: 80vw;
-}
-.card img{
-    height: 60vh;
+.section img{
+  height: 100vh;
+  margin-left: 35%;
 }
 .text {
-  margin-left: 10%;
-}
-
-.fade-bottom {
-  animation: fade-bottom 1s ease-in;
-}
-
-@keyframes fade-bottom {
-  0% {
-    transform: translateY(50px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
+  width: 50vw;
+  margin: 5% 0 0 30%;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 767px) {
