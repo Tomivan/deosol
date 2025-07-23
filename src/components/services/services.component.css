@@ -1,5 +1,5 @@
 .section{
-    margin-top: 12%;
+    margin-top: 15%;
     padding: 1em;
 }
 .cards {
@@ -16,4 +16,19 @@
 h3 {
     color: #7851a9 !important;
     margin-bottom: 5% !important;
+}
+
+@media screen and (max-width: 767px) {
+    .card {
+        width: 100%;
+    }   
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+   .card {
+    width: 45vw;
+   } 
+   .section {
+    margin-top: 20%;
+   }
 }

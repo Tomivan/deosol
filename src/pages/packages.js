@@ -1,11 +1,10 @@
-import React from "react";
-import Nav from "../components/nav/nav.component";
 import PackagesComponent from "../components/packages/packages.component";
+import NavComponent from "../components/nav/nav.component";
 
 const Packages = () => {
     return(
         <div>
-            <Nav />
+            <NavComponent />
             <PackagesComponent />
         </div>
     )

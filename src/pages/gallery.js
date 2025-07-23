@@ -1,12 +1,10 @@
-import React from "react";
-import Nav from "../components/nav/nav.component";
 import GalleryComponent from "../components/gallery/gallery.component";
-import Footer from "../components/footer/footer.component";
+import NavComponent from "../components/nav/nav.component";
 
 const Gallery = () => {
     return(
         <div>
-            <Nav />
+            <NavComponent />
             <GalleryComponent />
         </div>
     )

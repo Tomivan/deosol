@@ -1,12 +1,15 @@
 th, td {
     width: 30vw;
     text-align: left;
+    padding: 1em;
 }
 table {
     border: 1px solid #7851a9;
-    padding: 1em;
-    border-radius: 5px;
+    width: 100%;
 }
 tr {
-    border-bottom: 1px solid #7851a9;
+    border-bottom: 1px solid #7851a9 !important;
+}
+.table-container {
+    overflow-x: scroll;
 }

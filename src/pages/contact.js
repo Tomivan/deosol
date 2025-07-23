@@ -1,12 +1,10 @@
-import React from "react";
-import Nav from "../components/nav/nav.component";
 import ContactComponent from "../components/contact/contact.component";
-import Footer from "../components/footer/footer.component";
+import NavComponent from "../components/nav/nav.component";
 
 const Contact = () => {
     return(
         <div>
-            <Nav />
+            <NavComponent />
             <ContactComponent />
         </div>
     )

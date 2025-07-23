@@ -20,24 +20,35 @@ h2{
 }
 
 @media screen and (max-width: 767px) {
+  .background {
+    height: 20vh;
+  }
   h2{
-    font-size: 45px;
+    margin-top: -25% !important;
   }
-    .links{
-      flex-direction: column;
-    }
-    .purple{
-      width: 30vw;
-    }
-    .card{
-      margin: 40% 0 0 -5%;
-      flex-direction: column;
-    }
-    .card img{
-      width: 90vw;
-    }
-    p{
-      font-size: 13px;
-      line-height: 1.7;
-    }
+  .section img{
+    width: 90vw;
+    margin-left: 0;
+    height: 70vh;
   }
+  .text {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .background {
+    height: 30vh;
+  }
+  h2{
+    margin-top: -25% !important;
+  }
+  .section img {
+    margin: 10% 0 0 0;
+  }
+  .text {
+    width: 100%;
+    margin-left: 0;
+  }
+}

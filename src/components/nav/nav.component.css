@@ -10,9 +10,8 @@
 .deosol{
    height: 10vh;
 }
-.links{
-    display: flex;
-    justify-content: space-between;
+.navbar-collapse{
+    margin-left: 45%;
 }
 .link{
     color: #000000;
@@ -22,4 +21,10 @@
 }
 .link:hover, .link:active{
     color: #7851a9;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-toggler {
+        padding: 0.3em !important;
+    }
 }

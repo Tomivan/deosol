@@ -1,11 +1,10 @@
-import React from "react";
 import HomeComponent from "../components/home/home.component";
-import Nav from "../components/nav/nav.component";
+import NavComponent from "../components/nav/nav.component";
 
 const Home = () => {
     return(
         <div>
-            <Nav />
+            <NavComponent />
             <HomeComponent />
         </div>
     )
