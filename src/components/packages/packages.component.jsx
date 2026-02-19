@@ -1,11 +1,10 @@
-import React from 'react';
 import Background from '../../assets/images/background.jpg';
 import './packages.component.css';
 
 const PackagesComponent = () => {
     return(
         <div className='packages'>
-            <img src={Background} className='background' />
+            <img src={Background} className='background' alt="a background of purple with event packages on it" height="350" width="100%"/>
             <h2>Event Packages</h2>
             <div className="section">
                 <p>Choose from our curated wedding hall packages:</p> 

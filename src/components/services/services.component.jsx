@@ -1,11 +1,10 @@
-import React from 'react';
 import Logo from '../../assets/images/background.jpg';
 import './services.component.css'
 
 const ServicesComponent = () => {
     return (
         <div className='services'>
-            <img src={Logo} className='background' />
+            <img src={Logo} className='background' alt="a background of purple with Our Services on it" height="350" width="100%"/>
             <h2>Our Services</h2>
             <section className="section">
                 <p>We offer a wide range of event planning services to make your special occasion unforgettable. 

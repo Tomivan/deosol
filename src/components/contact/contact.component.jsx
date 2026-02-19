@@ -1,4 +1,3 @@
-import React from "react";
 import Background from '../../assets/images/background.jpg'
 import { Link } from "react-router-dom";
 import "./contact.component.css";
@@ -6,7 +5,7 @@ import "./contact.component.css";
 const ContactComponent = () => {
     return(
         <div className="contact">
-            <img src={Background} className="background"/>
+            <img src={Background} className="background" alt="a background of purple with contact us on it" height="350" width="100%"/>
             <h2>Contact Us</h2>
             <div className="section">
                 <div className="text">

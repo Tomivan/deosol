@@ -13,10 +13,10 @@
 .navbar-collapse{
     margin-left: 45%;
 }
-.link{
+.nav-link{
     color: #000000;
     text-decoration: none;
-    padding-left: 1em;
+    padding: 0 1.5em;
     margin-top: 5%;
 }
 .link:hover, .link:active{
@@ -25,6 +25,7 @@
 
 @media screen and (max-width: 767px) {
     .navbar-toggler {
-        padding: 0.3em !important;
+        height: 8vh;
+        width: 15vw;
     }
 }

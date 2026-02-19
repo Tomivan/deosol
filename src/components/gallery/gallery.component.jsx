@@ -20,53 +20,53 @@ import "./gallery.component.css";
 const GalleryComponent = () => {
     return(
         <div className="gallery">
-            <img src={Logo} className="background"/>
+            <img src={Logo} className="background" alt="a background of purple with gallery on it" height="350" width="100%"/>
             <h2>Gallery</h2>
             <Carousel className='carousel'>
                 <Carousel.Item>
-                    <img src={Four} alt="" />
+                    <img src={Four} alt="lily flowers on white table cloth with glass cups and decorative glasses"  width="1200" height="600"/>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={Five} alt="" />
+                    <img src={Five} alt="flowers on top and around a white table, glass decorations on the table"  width="1200" height="600"/>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={Six} alt="" />
+                    <img src={Six} alt="chairs with a golden background and other decorations" width="1200" height="600" />
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={Seven} alt="" />
+                    <img src={Seven} alt="light bulbs hanging low from the top" width="1200" height="600" />
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={Eight} alt="" />
+                    <img src={Eight} alt="hall with tables and chairs with white drapes and flowers" width="1200" height="600" />
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={Nine} alt="" />
+                    <img src={Nine} alt="White couch with white background decorated with flowers in blue light"  width="1200" height="600"/>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={Thirteen} alt="" />
+                    <img src={Thirteen} alt="Candles hanging from the top" width="1200" height="600" />
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={Fourteen} alt="" />
+                    <img src={Fourteen} alt="A hall with tables and chairs in white, with candles and decorative flowers hanging from the top" width="1200" height="600" />
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={Sixteen} alt="" />
+                    <img src={Sixteen} alt="Plates on white tables with glass decorations and white chairs" width="1200" height="600" />
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={Seventeen} alt="" />
+                    <img src={Seventeen} alt="A purple backdrop and purple carpet, with blown up displays of the couple decorated with flower" width="1200" height="600" />
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={Eighteen} alt="" />
+                    <img src={Eighteen} alt="Couple dance with dry ice" width="1200" height="600" />
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={Nineteen} alt="" />
+                    <img src={Nineteen} alt="Purple backdrop with blown up images of the couple" width="1200" height="600" />
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={Twenty} alt="" />
+                    <img src={Twenty} alt="Hall setup" width="1200" height="600" />
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={TwentyThree} alt="" />
+                    <img src={TwentyThree} alt="Wedding IV on a table" width="1200" height="600" />
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={TwentyFour} alt="" />
+                    <img src={TwentyFour} alt="Plates on a table with white cover" width="1200" height="600" />
                 </Carousel.Item>
             </Carousel>
         </div>

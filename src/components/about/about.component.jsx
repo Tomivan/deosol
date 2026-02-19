@@ -1,4 +1,3 @@
-import React from "react";
 import Logo from "../../assets/images/background.jpg"
 import Onose from "../../assets/images/onose.jpg"
 import "./about.component.css";
@@ -6,7 +5,7 @@ import "./about.component.css";
 const AboutComponent = () => {
     return(
         <div className="about">
-            <img src={Logo} className="background"/>
+            <img src={Logo} className="background" alt="a background of purple with about us on it" height="350" width="100%"/>
             <h2>About Us</h2>
             <div className="section">
                 <img src={Onose} alt="" />
