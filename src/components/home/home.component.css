@@ -49,6 +49,8 @@ video{
   }
   .purple{
     background: #7851a9;
+    height: 8vh;
+    width: 15vw;
   }
   .mission {
     padding: 1em;
