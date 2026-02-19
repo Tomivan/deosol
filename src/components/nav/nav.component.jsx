@@ -11,7 +11,7 @@ const NavComponent = () => {
             <Navbar expand="lg" className="nav">
                 <Container>
                     <Navbar.Brand href="#home">
-                        <Link to="/"><img src={Logo} className="deosol"/></Link>
+                        <Link to="/"><img src={Logo} className="deosol" alt="deosol logo" height="120" width="200"/></Link>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
